@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "discord-oidc"
+version = "0.1.0"
+description = ""
+authors = ["Joey Harrison <joeyh021@icloud.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.97.0"
+uvicorn = "^0.22.0"
+python-dotenv = "^1.0.0"
+aiohttp = "^3.8.4"
+
+[tool.poetry.dev-dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
